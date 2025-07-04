@@ -1,0 +1,11 @@
+
+source ~/deep/bin/activate
+apt list --upgradable
+screen /dev/ttyUSB1 115200
+ls /dev/tty*
+minicom -D /dev/ttyUSB1 -b 115200
+nmtui
+htop
+
+
+bu komutlar orangepi de kullanılıyor
