@@ -18,24 +18,32 @@ AutoLay, AutoCAD'e bağlanarak TKGM CBS API'sinden otomatik parsel koordinatı �
 ## Tanıtım Görselleri
 
 ### 1. Başlangıç Ekranı
-![Başlangıç Ekranı](../Tanıtım/1.PNG)
+![Başlangıç Ekranı](docs/tanitim/1.PNG)
 Kullanıcı, uygulamanın ana ekranında temel seçenekleri görebilir.
 
 ### 2. Parsel Seçimi
-![Parsel Seçimi](../Tanıtım/2.PNG)
+![Parsel Seçimi](docs/tanitim/2.PNG)
 Parsel seçimi yapılarak işleme başlanır.
 
 ### 3. Parametre Girişi
-![Parametre Girişi](../Tanıtım/3.PNG)
+![Parametre Girişi](docs/tanitim/3.PNG)
 Gerekli parametreler kullanıcı tarafından girilir.
 
 ### 4. Sonuçların Görüntülenmesi
-![Sonuçların Görüntülenmesi](../Tanıtım/4.PNG)
+![Sonuçların Görüntülenmesi](docs/tanitim/4.PNG)
 Hesaplama sonrası sonuçlar ekranda gösterilir.
 
 ### 5. Çizim ve Rapor
-![Çizim ve Rapor](../Tanıtım/5.PNG)
+![Çizim ve Rapor](docs/tanitim/5.PNG)
 Oluşturulan çizim ve raporlar kullanıcıya sunulur.
+
+---
+
+## Gereksinimler
+
+- Python 3.10+
+- AutoCAD 2026
+- Windows
 
 ---
 
@@ -46,7 +54,7 @@ git clone https://github.com/Hasanmercann/autolay.git
 cd autolay
 python -m venv venv
 venv\Scripts\activate
-pip install -r requirements.txt
+pip install pywin32 requests playwright
 playwright install chromium
 ```
 
